@@ -1,0 +1,50 @@
+1- Tela de login
+[] Tela
+[] autenticacao
+[] autenticacao ficar permanente
+
+2- Conexão com o banco
+
+
+3- Cadastrar objeto cliente
+[] Cliente 
+[] Endereco - varios para um cliente mas com um principal -> php artisan make:model Endereco -m
+[] Telefone - varios para um cliente -> php artisan make:model Telefone -m
+
+4- Visualizar cliente
+[] Em lista com todos
+[] Abrir cliente expecifico com seu endereço principal
+[] botao para lista de numero ou no corpo
+[] botao para lista de endereco ou no corpo
+
+
+5- Editar objeto cliente.
+[] Cliente
+[] Endereco
+[] Telefone
+
+
+6- Excluir objeto cliente
+[] Cliente
+[] Endereco
+[] Telefone
+
+
+
+ClienteController.php
+ClienteFormRequest.php
+https/Cliente.php
+cliente create blade.php
+cliente indexblade.php
+web.php -> criar routes
+criar espaço no banco de dados -> php artisan make:migration criar_tabela_cliente // criar tabela
+editar banco de dados -> subir as alterações php artisan migrate
+endereço/telefone trabalha como temporadas
+
+
+
+php artisan make:model Temporada -m
+
+php artisan make:model Episodio -m
+
+php artisan migrate
